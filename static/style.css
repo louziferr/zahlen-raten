@@ -1,4 +1,39 @@
 body {
   height: 100vh;
   background: #4c96ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Menlo;
+}
+
+input {
+  padding: 5px;
+  height: 30px;
+  border-radius: 4px;
+  width: 60px;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  font-family: Menlo;
+  height: 40px;
+  padding: 5px;
+  background: #4c96ad;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+}
+
+#container {
+  height: 200px;
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

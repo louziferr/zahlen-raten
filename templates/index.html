@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body id="hintergrund">
-    Zahlen raten!
+    <div id="container">
+      <p>Rate eine Zahl zwischen 1 und 100!</p>
+      <p id="tipp">Deine Zahl ist: _</p>
+      <div>
+        <input
+          id="input-zahl"
+          type="number"
+          placeholder="0"
+          min="1"
+          max="100"
+          required
+        />
+        <button id="button-raten">Raten</button>
+      </div>
+      <p id="versuche">Du hast noch 5 Versuche!</p>
+    </div>
   </body>
   <script src="/static/zahlenraten.js"></script>
 </html>

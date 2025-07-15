@@ -1,6 +1,9 @@
-const meinName = "Luzie";
+// Element body per ID abfragen
+const body = document.getElementById("hintergrund");
 
-if (meinName.includes("L")) {
-    console.log("Guten Tag, L!");
+function changeColor() {
+    console.log('Farbe ändern!');
 }
 
+// Style von body ändern, wenn er angeklickt wird
+body.addEventListener('click', changeColor);

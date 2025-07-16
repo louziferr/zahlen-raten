@@ -26,6 +26,11 @@ button {
   border-radius: 4px;
 }
 
+button:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
 #container {
   height: 200px;
   width: 400px;
